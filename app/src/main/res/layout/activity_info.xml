@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="ir.pathseeker.baran.infoActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="پروژه باران"
+            android:id="@+id/textView8"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" خلاصه :"
+            android:id="@+id/textView9"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="هیچ نهادی در جامعه بهتر از مردم همان جامعه برای ثبت، اولویت دهی و پیگیری مشکلات شهری و اجتماعی وجود ندارد."
+            android:id="@+id/textView10"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="مشکل یا چالش اصلی چیست؟"
+            android:id="@+id/textView11"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="در دنیای که در آن راه حل های تکنولوژیک زندگی بشر را راحت کرده اند، ما هنوز برای جستجو و ثبت مشکلات شهری و اجتماعی از نهادهای دولتی و شبه دولتی با نیروهای محدودشان استفاده میکنیم. با بزرگتر شدن شهر ها، هر روزه شاهد عدم کارایی مناسب این نهادهای مسئول در زمینه پویش مشکلات و اختصاص منابع درست برای رفع آنها هستیم. نیاز به یک مکانیزم پویش مداوم مردمی و مشارکت بیشتر سازمان های مردم نهاد و خیرییه ها در زمینه حل مشکلات شهری و اجتماعی، هر روز بیش از پیش احساس میشود."
+            android:id="@+id/textView12"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="چگونه پروژه باران این مشکل را رفع میکند؟"
+            android:id="@+id/textView14"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="پروژه باران در نظر دارد با همکاری مردمی بر پایه تکنولوژی های روز ، مشکلات شهری و اجتماعی را در محدوده های جغرافیایی مختلف ثبت و با جمع آوری رای مردم همان ناحیه، سطح آن معضل را مشخص کرده و به نهاد های دولتی و NGO ها مختص به آن گزارش دهد."
+            android:id="@+id/textView13"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:phoneNumber="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="تاثیر بلند مدت پروژه:"
+            android:id="@+id/textView16"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="تاثیر بلند مدت پروژه باران علاوه بر کاهش زمان رسیدگی به مشکلات، افزایش سطح مشارکت مردمی در رویارویی با معضلات شهری و اجتماعی است. در بلند مدت تاثیر فرهنگی این پروژه باعث داشتن جامعه ای پویاتر، فعال ترو مسيولیت پذیر تر میشود"
+            android:id="@+id/textView15"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

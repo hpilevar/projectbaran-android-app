@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">پروژه‌ی باران</string>
+    <string name="title_section1">جستجو</string>
+    <string name="title_section2">آخرین رهگیری ها</string>
+    <string name="title_section3">لیست انیمیشن ها</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example"></string>
+    <string name="action_helper">راهنما</string>
+    <string name="action_settings">خروج</string>
+    <string name="title_activity_internetalert">internetalert</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="internetAlertText">دوباره سعی کن</string>
+    <string name="fragment_header">baran</string>
+    <string name="exit_ok">خروج</string>
+    <string name="exit_cancel">بی‌خیال</string>
+    <string name="DownloadReceiver_title">توجه</string>
+    <string name="DownloadReceiver_message">فایل درخواستی شما دانلود شد</string>
+    <string name="DownloadReceiver_button">باشه</string>
+    <string name="selectImage_Take_Photo"> دوربین عکاسی</string>
+    <string name="selectImage_Choose_from_Gallery">انتخاب از گالری</string>
+    <string name="selectImage_Cancel">بی‌خیال</string>
+    <string name="selectImage_Title">پیوست عکس به گزارش مشکل</string>
+    <string name="gps_network_not_enabled">سرویس رهگیری مکان وسیله‌ی شما فعال نمیباشد</string>
+    <string name="open_location_settings">فعال کردن سرویس  </string>
+    <string name="Cancel">انصراف</string>
+    <string name="Report_without_internet">بدلیل متصل نبودن به شبکه اینترنت گزارش شمافقط در  دستگاه ذخیره شد، لطفا نسبت به ارسال آن در شرایط مناسب اقدام کنید</string>
+    <string name="setUpMap_alertDialogtitle">لطفا کمی شکیبا باشید</string>
+    <string name="setUpMap_alertDialogmessage">در حال رهگیری مکان جغرافیایی </string>
+    <string name="report_send_success_message">با موفقیت فرستاده شد</string>
+    <string name="report_send_faild_message">متاسفانه فرستاده نشده است</string>
+
+    <string-array name="sections">
+        <item>ثبت گزارش</item>
+        <item>گزارشات ثبت شده‌ی شما</item>
+        <item>مشاهده گزارشات مردمی</item>
+    </string-array>
+    <string-array name="section_titles">
+        <item>ثبت گزارش</item>
+        <item>گزارشات ثبت شده‌ی شما</item>
+        <item>مشاهده گزارشات مردمی</item>
+    </string-array>
+    <string-array name="sections_icons">
+        <item>@drawable/ic_magnifier13</item>
+        <item>@drawable/ic_navigation9</item>
+        <item>@drawable/ic_list</item>
+    </string-array>
+
+    <string name="title_activity_report_maps">نقشه گزارشات شما</string>
+    <string name="title_activity_main_page">صفحه‌ی اصلی</string>
+    <string name="title_activity_web_view">گزارشات مردمی</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="WIRELESS_not_enabled">اینترنت وسیله شما فعال نمیباشد</string>
+    <string name="open_WIRELESS_settings">فعال کردن سرویس </string>
+    <string name="title_activity_info">درباره</string>
+    <string name="info">پروژه باران  خلاصه :  هیچ نهادی در جامعه بهتر از مردم همان جامعه برای ثبت، اولویت دهی و پیگیری مشکلات شهری و اجتماعی وجود ندارد.  مشکل یا چالش اصلی چیست؟  در دنیای که در آن راه حل های تکنولوژیک زندگی بشر را راحت کرده اند، ما هنوز برای جستجو و ثبت مشکلات شهری و اجتماعی از نهادهای دولتی و شبه دولتی با نیروهای محدودشان استفاده میکنیم. با بزرگتر شدن شهر ها، هر روزه شاهد عدم کارایی مناسب این نهادهای مسئول در زمینه پویش مشکلات و اختصاص منابع درست برای رفع آنها هستیم. نیاز به یک مکانیزم پویش مداوم مردمی و مشارکت بیشتر سازمان های مردم نهاد و خیرییه ها در زمینه حل مشکلات شهری و اجتماعی، هر روز بیش از پیش احساس میشود.  چگونه پروژه باران این مشکل را رفع میکند؟  پروژه باران در نظر دارد با همکاری مردمی بر پایه تکنولوژی های روز ، مشکلات شهری و اجتماعی را در محدوده های جغرافیایی مختلف ثبت و با جمع آوری رای مردم همان ناحیه، سطح آن معضل را مشخص کرده و به نهاد های دولتی و NGO ها مختص به آن گزارش دهد.  تاثیر بلند مدت پروژه:  تاثیر بلند مدت پروژه باران علاوه بر کاهش زمان رسیدگی به مشکلات، افزایش سطح مشارکت مردمی در رویارویی با معضلات شهری و اجتماعی است. در بلند مدت تاثیر فرهنگی این پروژه باعث داشتن جامعه ای پویاتر، فعال ترو مسيولیت پذیر تر میشود</string>
+    <string name="title_activity_send_report">ارسال گزارش</string>
+    <string name="SendReportTitle">وضعیت </string>
+    <string name="SendReportSucced">گزارش شما با موفقیت ذخیره و ارسال شد، همچنین پس از تایید مدیریت در سایت نمایش داده میشود</string>
+    <string name="SendReportFaild">متاسفانه روند ارسال گزارش شما موفقیت آمیز نبود اما گزارش در تلفن شما ذخیره شد</string>
+    <string name="setUpMap_selectImageAddress">لطفا تصویری را زمینه ی گزارش بنمایید</string>
+    <string name="setUpMap_selecttitle">لطفا یک عنوان برای گزارش خود بنویسید</string>
+    <string name="title_activity_report_detail">جزییات گزارش</string>
+    <string name="syncTextStr"> همگام سازی گزارشات با سرور </string>
+    <string name="syncOk">تمام گزارشات قبلا به سرور فرستاده شده اند</string>
+    <string name="Zero_listItemCount">هنوز هیچ گزارشی از طرف شما ثبت نشده است</string>
+    <string name="action_info">درباره‌ی پروژه</string>
+    <string name="title_activity_send_mobile_issue">ارسال گزارش</string>
+    <string name="city_issue">مشکلات شهری</string>
+    <string name="mobile_issue">مشکلات آنتن دهی</string>
+
+</resources>
